@@ -1,13 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 18 15:31:36 2017
-
-@author: Jones
-"""
 import numpy as np
 
-#entradas = np.array([[0,0],[0,1], [1,0], [1,1]])
-#saidas = np.array([0,1,1,0])
 pesos = np.array([0.0, 0.0])
 taxaAprendizagem = 0.1
 
