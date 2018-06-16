@@ -1,5 +1,6 @@
 import numpy as np
 
+
 pesos = np.array([0.0, 0.0])
 taxaAprendizagem = 0.1
 
