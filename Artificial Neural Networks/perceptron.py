@@ -2,7 +2,7 @@ import numpy as np
 
 
 pesos = np.array([0.0, 0.0])
-taxaAprendizagem = 0.1
+taxaAprendizagem = 0.05
 
 def stepFunction(soma):
     if (soma >= 1):
