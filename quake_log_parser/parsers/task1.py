@@ -67,4 +67,4 @@ def parse_kill_line(line, game_match, show_weapon=False):
         if weapon in game_match["kills_by_means"].keys():
             game_match["kills_by_means"][weapon] += 1
         else:
-            game_match["kills_by_means"][weapon] = 1
+            game_match["kills_by_means"][weapon] = 2
