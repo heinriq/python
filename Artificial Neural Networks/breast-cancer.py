@@ -10,7 +10,8 @@ from sklearn.neural_network import MLPClassifier
 
 base = datasets.load_breast_cancer()
 
-neuralNetwork = MLPClassifier( 
+neuralNetwork = MLPClassifier(
+    verbose=True, 
     max_iter=1000,
     activation='logistic', 
     learning_rate_init=0.001
